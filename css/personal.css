@@ -261,6 +261,10 @@ header {
     justify-content: space-around;
     border-top: 2px solid #D6D3BB;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 .sub-menu-left{
     width: 60%;
     height: 128px;
