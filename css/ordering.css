@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background: #fefffa;
 }
 
 p h1 h2 h3 h4 h5 h6 {
@@ -379,4 +380,124 @@ main {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
+}
+
+footer {
+    padding: 0px 10%;
+    background: #fefffa;
+}
+
+#footer-top-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.footer-list-sub-block {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+#footer-title {
+    margin-top: 0px;
+    margin-bottom: 34px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#footer-number {
+    margin-top: 0px;
+    margin-bottom: 38px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#footer-email {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.footer-block-title {
+    margin-top: 0px;
+    margin-bottom: 33px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.footer-block-list-text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+#footer-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+    padding-bottom: 45px;
+}
+
+#privacy-policy {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+#footer-images-block {
+    display: flex;
+    gap: 12px;
+}
+
+#footer-image-m {
+    width: 80px;
+    height: 40px;
+    background-image: url("../images/MasterCard-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#footer-image-v {
+    width: 100px;
+    height: 40px;
+    background-image: url("../images/visa-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
