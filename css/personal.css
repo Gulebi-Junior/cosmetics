@@ -1,0 +1,303 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #FEFFFA;
+    margin: 0;
+}
+header{
+    width: 1959px;
+    height: 166px;
+    border: 1px solid red;
+}
+.leafbranch{
+    position: absolute;
+    width: 443.18px;
+    height: 669.96px;
+    left: 0px;
+    top: 300px;
+}
+.leafbranch2{
+    position: absolute;
+    width: 300px;
+    height: 370px;
+    left: 1661px;
+    top: 750px;
+}
+.leafbranch3{
+    position: absolute;
+    width: 539.74px;
+    height: 772.33px;
+    left: 1405px;
+    top: 1500px;
+}
+.leafbranch4{
+    position: absolute;
+    width: 370px;
+    height: 313.21px;
+    left: 409px;
+    top: 1960px;
+}
+.leafbranch5{
+    position: absolute;
+    width: 206px;
+    height: 322px;
+    top: 1460px;
+}
+.dec-txt{
+    position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 190px;
+    top: 221px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+}
+.b{
+    border: 1px solid red;
+}
+
+/* ======================================MEMBER-ICON====================================== */
+
+.member-icon{
+    position: absolute;
+    width: 469px;
+    height: 653px;
+    left: 321px;
+    top: 331px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.capital-txt{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.ellipse-n-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ellipse{
+    width: 363px;
+    height: 363px;
+    background: #FF9B9B;
+    border-radius: 200px;
+}
+
+/* ======================================GROUP23====================================== */
+
+.group23{
+    position: absolute;
+    width: 759px;
+    height: 346px;
+    left: 840px;
+    top: 471px;
+}
+.group23-top{
+    width: 52%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    color: #919191;
+    text-decoration: underline;
+}
+.balance{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.contacts{
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.sub-contacts{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-txt{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* ======================================GROUPS====================================== */
+
+.groups{
+    position: absolute;
+    width: 1278px;
+    height: 645px;
+    left: 321px;
+    top: 1064px;
+    border-bottom: 2px solid #D6D3BB;
+}
+.sub-menu{
+    width: 1278px;
+    height: 128px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #D6D3BB;
+}
+.sub-menu-left{
+    width: 60%;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub-menu-right{
+    width: 10%;
+    height: 128px;
+}
+.whitebox-txt{
+    width: 32%;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.whitebox{
+    width: 101px;
+    height: 101px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.box-txt{
+    font-weight: 500;
+    font-size: 18px;
+}
+.sub-menu-txt{
+    width: 45%;
+    height: 128px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.sub-txt{
+    font-weight: 500;
+    font-size: 14px;
+}
+.sub-menu-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricetag{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+/* ======================================SCROLL MENU====================================== */
+
+.scroll-menu{
+    position: absolute;
+    width: 253px;
+    height: 37px;
+    left: 834px;
+    top: 1740px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.range{
+    width: 37px;
+    height: 37px;
+    background: #F6F5EE;
+    border: 1px solid #E2E0CE;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ======================================FOOTER====================================== */
+
+.bb{
+    background-color: #D6D3BB;;
+}
+footer{
+    position: absolute;
+    width: 1959px;
+    height: 343px;
+    top: 1862px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #C4C4C4;;
+}
+.footer-txt{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foot-txt-title{
+    font-weight: 900;
+    font-size: 24px;
+}
+.footer-column{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mb{
+    margin-bottom: 110px;
+}
+.fs{
+    font-weight: 500;
+    font-size: 16px;
+}
+.mbt{
+    margin-bottom: -25px;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -30px;
+}
+.master{
+    width: 137px;
+    height: 68px;
+}
+.visa{
+    width: 101px;
+    height: 42px;
+}
+.ml{
+    margin-left: 200px;
+}
